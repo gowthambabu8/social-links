@@ -6,4 +6,4 @@ namespace: social-links
 resources:
   - namespace.yaml
   - deployment.yaml
-  - service.yaml
+  - service.yaml 
