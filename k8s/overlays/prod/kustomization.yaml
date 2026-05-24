@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: social-links
  
 resources:
-  - ../../base
+- ../../base
  
 images:
-  - name: social-links-image
-    newName: happielearning/social_links
-    newTag: v1
+- name: social-links-image
+  newName: happielearning/social-links
+  newTag: 150f286
