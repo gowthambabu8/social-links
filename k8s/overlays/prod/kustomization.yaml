@@ -9,4 +9,4 @@ resources:
 images:
 - name: social-links-image
   newName: happielearning/social-links
-  newTag: 8a944b9
+  newTag: 3c78163
