@@ -1,7 +1,7 @@
 FROM nginx:1.27-alpine
-RUN rm /etc/nginx/conf.d/nginx.conf
+RUN rm /etc/nginx/conf.d/default.conf
 
-COPY nginx/nginx.conf /etc/nginx/conf.d/nginx.conf
+COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
 COPY html/index.html /usr/share/nginx/html
 
 RUN chown -R nginx:nginx /usr/share/nginx/html /var/cache/nginx /var/log/nginx \
