@@ -9,6 +9,6 @@ RUN chown -R nginx:nginx /usr/share/nginx/html /var/cache/nginx /var/log/nginx \
     && chown nginx:nginx /var/run/nginx.pid
 
 USER nginx
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["nginx","-g","daemon off;"]
